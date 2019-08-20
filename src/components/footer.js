@@ -79,15 +79,7 @@ class Footer extends React.Component {
             </Flex>
           </Box>
           <Box width={[4 / 5, 1 / 2, 1 / 3, 1 / 6]} pt={2}>
-            <Flex alignItems="center" justifyContent="center">
-              <GalleryContainer>
-                <FlickrLightbox
-                  api_key="1b4e5b0203fab0d5731afe68f0a543e1"
-                  user_id="132343752@N06"
-                  limit={8}
-                />
-              </GalleryContainer>
-            </Flex>
+          
           </Box>
         </Flex>
       </Base>
